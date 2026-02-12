@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:ghast_tear"
-    },
-    "#": {
-      "item": "minecraft:nether_star"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:ghast_tear",
+    "#": "minecraft:nether_star"
   },
   "result": {
     "id": "justpotionrings:ring",

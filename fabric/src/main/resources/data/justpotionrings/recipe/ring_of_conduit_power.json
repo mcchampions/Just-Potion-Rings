@@ -6,15 +6,9 @@
         " I "
     ],
     "key": {
-        "R": {
-            "item": "justpotionrings:potion_ring"
-        },
-        "I": {
-            "item": "minecraft:prismarine_crystals"
-        },
-        "#": {
-            "item": "minecraft:conduit"
-        }
+        "R": "justpotionrings:potion_ring",
+        "I": "minecraft:prismarine_crystals",
+        "#": "minecraft:conduit"
     },
     "result": {
         "id": "justpotionrings:ring",

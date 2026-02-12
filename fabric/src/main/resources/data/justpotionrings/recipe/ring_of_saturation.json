@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#I ",
-    "IRI",
-    " I "
+    "AAA",
+    "ARA",
+    "AAA"
   ],
   "key": {
     "R": "justpotionrings:potion_ring",
-    "I": "minecraft:emerald",
-    "#": "minecraft:emerald_block"
+    "A": "minecraft:apple"
   },
   "result": {
     "id": "justpotionrings:ring",
     "components": {
-      "mob:effect" : "minecraft:haste"
+      "mob:effect" : "minecraft:saturation"
     }
   }
 }

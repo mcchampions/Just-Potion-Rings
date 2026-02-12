@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "justpotionrings:item/potion_ring",
+    "tints": [
+      {
+        "type": "justpotionrings:ring_color",
+        "default": -1
+      }
+    ]
+  }
+}

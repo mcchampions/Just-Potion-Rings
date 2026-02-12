@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:rabbit_foot"
-    },
-    "#": {
-      "item": "minecraft:slime_block"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:rabbit_foot",
+    "#": "minecraft:slime_block"
   },
   "result": {
     "id": "justpotionrings:ring",

@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "#": {
-      "item": "minecraft:wither_skeleton_skull"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:crying_obsidian",
+    "#": "minecraft:wither_skeleton_skull"
   },
   "result": {
     "id": "justpotionrings:ring",

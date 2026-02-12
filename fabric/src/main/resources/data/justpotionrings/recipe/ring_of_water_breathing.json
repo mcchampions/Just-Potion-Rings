@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:pufferfish"
-    },
-    "#": {
-      "item": "minecraft:sponge"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:pufferfish",
+    "#": "minecraft:sponge"
   },
   "result": {
     "id": "justpotionrings:ring",

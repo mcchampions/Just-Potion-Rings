@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:sugar"
-    },
-    "#": {
-      "item": "minecraft:redstone_block"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:sugar",
+    "#": "minecraft:redstone_block"
   },
   "result": {
     "id": "justpotionrings:ring",

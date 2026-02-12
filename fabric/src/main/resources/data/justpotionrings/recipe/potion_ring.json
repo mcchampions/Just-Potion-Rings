@@ -6,12 +6,8 @@
     " g "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:lapis_block"
-    },
-    "g": {
-      "item": "minecraft:gold_ingot"
-    }
+    "#": "minecraft:lapis_block",
+    "g": "minecraft:gold_ingot"
   },
   "result": {
     "id": "justpotionrings:potion_ring"

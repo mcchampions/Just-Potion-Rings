@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:diamond"
-    },
-    "#": {
-      "item": "minecraft:turtle_scute"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:diamond",
+    "#": "minecraft:turtle_scute"
   },
   "result": {
     "id": "justpotionrings:ring",

@@ -6,15 +6,9 @@
     " I "
   ],
   "key": {
-    "R": {
-      "item": "justpotionrings:potion_ring"
-    },
-    "I": {
-      "item": "minecraft:blaze_powder"
-    },
-    "#": {
-      "item": "minecraft:magma_block"
-    }
+    "R": "justpotionrings:potion_ring",
+    "I": "minecraft:blaze_powder",
+    "#": "minecraft:magma_block"
   },
   "result": {
     "id": "justpotionrings:ring",

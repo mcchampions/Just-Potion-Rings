@@ -1,17 +1,13 @@
 package com.dplayend.justpotionrings;
 
-import com.dplayend.justpotionrings.common.item.Ring;
-import com.dplayend.justpotionrings.registry.RegistryItems;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.minecraft.client.render.item.tint.TintSourceTypes;
+import net.minecraft.util.Identifier;
 
 public class JustPotionRingsClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
-            if (tintIndex == 1 && stack.getItem() instanceof Ring ring) return ring.getColorEffect(stack);
-            return -1;
-        }, RegistryItems.RING);
+        TintSourceTypes.ID_MAPPER.put(Identifier.of(JustPotionRings.MOD_ID, "ring_color"),RingColorTintSource.CODEC);
     }
 }
