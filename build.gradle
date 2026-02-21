@@ -40,14 +40,7 @@ dependencies {
 	// Fabric API
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	//ModMenu
-	modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}") { exclude group: "net.fabricmc.fabric-api" }
-	//Cloth Config
-	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.clothconfig_version}") { exclude(group: "net.fabricmc.fabric-api") }
 	modImplementation("io.wispforest:accessories-fabric:${accessories_version}")
-	//CurseMaven
-	modImplementation("curse.maven:architectury-419699:5786326")
-	modImplementation("curse.maven:rei-310111:5764022")
 }
 
 processResources {
