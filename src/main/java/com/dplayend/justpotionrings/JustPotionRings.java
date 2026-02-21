@@ -10,7 +10,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Items;
-import net.minecraft.util.Identifier;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.TradedItem;
 
