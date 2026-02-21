@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "justpotionrings",
-	"version": "1.4",
+	"version": "1.0.0-1.21.11",
 	"name": "Just Potion Rings",
 	"description": "Adds Rings that apply potion effects to the player while worn.",
 	"contact": {
