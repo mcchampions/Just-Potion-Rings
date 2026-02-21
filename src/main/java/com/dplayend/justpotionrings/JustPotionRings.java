@@ -27,6 +27,6 @@ public class JustPotionRings implements ModInitializer {
 	}
 
 	public void villagerEvent() {
-		TradeOfferHelper.registerWanderingTraderOffers(factories -> factories.addOffersToPool(TradeOfferHelper.WanderingTraderOffersBuilder.SELL_SPECIAL_ITEMS_POOL ,(entity, random) -> new TradeOffer(new TradedItem(Items.EMERALD, 32), HandlerRing.createRing(StatusEffects.HERO_OF_THE_VILLAGE.value()), 1, 0, 1.0F)));
+		TradeOfferHelper.registerWanderingTraderOffers(factories -> factories.addOffersToPool(TradeOfferHelper.WanderingTraderOffersBuilder.SELL_SPECIAL_ITEMS_POOL ,(world,entity, random) -> new TradeOffer(new TradedItem(Items.EMERALD, 32), HandlerRing.createRing(StatusEffects.HERO_OF_THE_VILLAGE.value()), 1, 0, 1.0F)));
 	}
 }
